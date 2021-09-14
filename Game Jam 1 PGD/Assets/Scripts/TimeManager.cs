@@ -17,9 +17,9 @@ public class TimeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeSlider.value += 5 * Time.deltaTime;
+        timeSlider.value += 3 * Time.deltaTime;
 
-        if (timeSlider.value >= timeSlider.maxValue) 
+        if (timeSlider.value >= timeSlider.maxValue)
         {
             timeText.text = "Finished";
         }
